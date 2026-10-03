@@ -15,8 +15,9 @@ env/
 # Local recordings
 recordings/
 *.wav
-*.mp3
-*.m4a
+
+# Allow sanitized demonstration recording
+!sample_data/audio/sample.wav
 
 # Local transcription output
 Transcribed_Notes/
