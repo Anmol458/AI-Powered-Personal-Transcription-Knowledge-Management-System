@@ -10,23 +10,7 @@ The system captures audio through a laptop microphone(currently, a portable reco
 
 ## System Architecture
 
-Laptop Microphone
-        ↓
-Audio Capture
-        ↓
-WAV Recording
-        ↓
-Local Whisper Model
-        ↓
-Markdown Transcript
-        ↓
-Obsidian Vault
-        ↓
-Local Ollama LLM Agent
-        ↓
-Topic Extraction & Organization
-        ↓
-Structured Personal Knowledge Base
+Laptop Microphone -> Audio Capture -> WAV Recording -> Local Whisper Model -> Markdown Transcript -> Obsidian Vault -> Local Ollama LLM Agent -> Topic Extraction & Organization -> Structured Personal Knowledge Base
 
 
 ## Technologies Used
@@ -83,17 +67,7 @@ A future extension of the project is a standalone ESP32-based recording device w
 
 The intended architecture is:
 
-ESP32 + Microphone
-↓
-WAV Audio
-↓
-Laptop
-↓
-Local Whisper
-↓
-Obsidian
-↓
-Ollama Knowledge Organization
+ESP32 + Microphone -> WAV Audio -> Laptop -> Local Whisper -> Obsidian -> Ollama Knowledge Organization
 
 The current implemented transcription pipeline uses the laptop microphone.
 
