@@ -76,7 +76,7 @@ The project is designed around local processing, aiming to build private and sec
 
 #### 1. Clone the repository
 
-git clone repo
+git clone https://github.com/Anmol458/AI-Powered-Personal-Transcription-Knowledge-Management-System.git
 
 cd AI-Powered-Personal-Transcription-Knowledge-Management-System
 
