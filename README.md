@@ -60,6 +60,51 @@ The agent identifies topics and organizes relevant information into structured k
 
 The project is designed around local processing, aiming to build private and secure day-to-day transcribers for individuals.
 
+## Setup for the project
+
+### Requirements
+
+- Windows 10/11
+- Python 3.10+
+- NVIDIA GPU recommended for CUDA acceleration
+- CUDA-compatible NVIDIA drivers
+- A working microphone
+- Ollama (for the knowledge-management stage)
+- Obsidian (optional, for viewing the generated knowledge base)
+
+### Installation
+
+#### 1. Clone the repository
+
+git clone repo
+
+cd AI-Powered-Personal-Transcription-Knowledge-Management-System
+
+#### 2. Create a virtual environment
+
+python -m venv .venv
+
+#### 3. Activate the environment
+
+Windows PowerShell:
+
+.venv\Scripts\activate
+
+#### 4. Install Python dependencies
+
+pip install -r requirements.txt
+
+#### 5. Configure the microphone
+
+The system uses the laptop microphone through the `sounddevice` Python library.
+
+Make sure Windows microphone permissions are enabled:
+
+Settings → Privacy & security → Microphone
+
+#### 6. Run the transcription system
+
+python src/main.py
 
 ## Hardware Extension
 
