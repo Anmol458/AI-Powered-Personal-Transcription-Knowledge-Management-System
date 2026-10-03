@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Local recordings
+recordings/
+*.wav
+*.mp3
+*.m4a
+
+# Local transcription output
+Transcribed_Notes/
+
+# Personal Obsidian vault
+*.obsidian/
+obsidian_vault/
+
+# Local configuration
+.env
+config.py
+secrets.py
+
+# Ollama/local model files
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
